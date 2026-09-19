@@ -50,15 +50,16 @@ main{
 
 .right{
     margin: 50px;
+    width: 300px;
 }
 
-#login{
-    color: blueviolet;
+h1{
+    color:black;
+    font-weight: bold;
 }
 
 input{
     border-radius: 1%;
-    width: 100%;
     height: 25px;
 }
 #Remember {
@@ -70,3 +71,30 @@ input{
 #Remember a {
     margin-left: auto;
 }
+
+button[type="submit"]{
+    width:300px;
+    color:white;
+    background-color: violet;
+    height: 40px;
+    border-color: violet;
+    font-weight: bold;
+
+}
+
+.signup {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-top: 25px;
+}
+
+.signup span {
+    font-weight: bold;
+}
+
+.signup a {
+    color: purple;
+    text-decoration: underline;
+}
+
